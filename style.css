@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
   }
   
 body {
@@ -58,8 +58,34 @@ summary {
     margin: 0 auto;
 }
 
+figure {
+    margin: 0 auto;
+    width: 75%;
+}
 
-p, 
+figcaption {
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    margin: 0.5em auto;
+}
+
+.recipe-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.recipe-text,
+h4,
+ul,
+ol {
+    color: white;
+}
+
+
+/* p, 
 h4,
 ul,
 ol{
@@ -68,7 +94,7 @@ ol{
     margin: 0.5em 0.5em;
     text-align: left;
     
-}
+} */
 
 /* TODO: finish styling for recipe pages (e.g. fix centering issue) */
 /* TODO: add fonts to pages */
