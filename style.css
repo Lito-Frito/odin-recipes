@@ -1,5 +1,6 @@
+/* Ubiquitous or shared styling */
 * {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
   }
   
 body {
@@ -14,8 +15,10 @@ body {
     font-weight: bold;
     text-align: center;
     width:100%;
+    margin: 0.25em auto;
 }
 
+/* Index styling */
 div.summary { /* for each meal-type on the home page */
     margin: 1em;
 }
@@ -42,11 +45,19 @@ summary {
     font-size: 1.25em;
 }
 
+/* Recipe styling */
 .recipe-name {
     color: #fcddaf;
     font-size: 1.75em;
     font-weight: bold;
     text-align: center;
+    margin: 0.25em auto;
+}
+
+figure {
+    margin: 0 auto;
+    width: 75%;
+    margin: 0.25em auto;
 }
 
 .recipe-img {
@@ -55,14 +66,9 @@ summary {
     margin: 0 auto;
 }
 
-figure {
-    margin: 0 auto;
-    width: 75%;
-}
-
 figcaption {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-weight: bold;
     text-align: center;
     width:100%;
@@ -71,8 +77,22 @@ figcaption {
 
 .recipe-container {
     width: 75%;
-    margin: 0 auto;
+    margin: 1.5em auto;
 }
+
+/* .description-container {
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.description-container,
+.description-container h4,
+.description-container p {
+    width: 100%;
+    margin: 0.25em auto 0;
+}
+
+/* start with .recipe-containers next */
 
 .recipe-text,
 ul,
