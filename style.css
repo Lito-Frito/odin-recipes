@@ -6,17 +6,18 @@ body {
     background-color: #613e11;
 }
 
-.home-title {
+.home-title,
+.home-link
+ {
     color: #c4a77b;
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
     width:100%;
-    padding: 1%;
-    margin: 0 auto;
+    margin: 0.5em auto;
 }
 
-div.summary {
+div.summary { /* for each meal-type on the home page */
     margin: 1em;
 }
 details {
@@ -36,22 +37,27 @@ details p {
     font-family: 'Garamond', serif;
 }
 
-summary, h2 {
+summary {
     color: white;
     font-weight: 500;
     font-size: 1.5em;
 }
 
-h1 {
+.recipe-name {
     color: #c4a77b;
+    font-size: 1.75em;
     font-weight: bold;
-    font-size: 5em;
-    /* margin: 0.25em 0.5em; */
+    text-align: center;
+    width:100%;
+    margin: 0.5em auto;
 }
 
-h1, a { /*This is for the Home link in each recipe */
-    color: #c4a77b;
+.recipe-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
+
 
 p, 
 h4,
