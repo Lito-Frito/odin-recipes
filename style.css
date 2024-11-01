@@ -1,5 +1,5 @@
 * {
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
   }
   
 body {
@@ -78,10 +78,16 @@ figcaption {
 }
 
 .recipe-text,
-h4,
 ul,
 ol {
     color: white;
+}
+
+h4 {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: #fcddaf;
 }
 
 
@@ -95,8 +101,3 @@ ol{
     text-align: left;
     
 } */
-
-/* TODO: finish styling for recipe pages (e.g. fix centering issue) */
-/* TODO: add fonts to pages */
-/* TODO: maybe add a bg color to images that aren't same size as big imgs */
-
