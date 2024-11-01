@@ -29,6 +29,7 @@ details p {
     margin: 0 auto;
     padding: 0.25em 0;
     font-size: 1em;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
 
