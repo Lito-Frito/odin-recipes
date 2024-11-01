@@ -1,5 +1,5 @@
 * {
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
   }
   
 body {
@@ -16,6 +16,9 @@ body {
     margin: 0 auto;
 }
 
+div.summary {
+    margin: 1em;
+}
 details {
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
@@ -28,9 +31,9 @@ details p {
     width:75%;
     margin: 0 auto;
     padding: 0.25em 0;
-    font-size: 1em;
+    font-size: 0.85em;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Garamond', serif;
 }
 
 summary, h2 {
