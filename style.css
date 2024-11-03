@@ -107,8 +107,24 @@ figcaption {
     margin: 1.5em auto;
 }
 
+.description-container {
+    width: 100%;
+    margin: 1.5em auto 0;
+}
+
 .description-container h4,
 .description-container p {
+    width: 100%;
+    margin: 0.25em auto 0;
+}
+
+.supplies-container {
+    width: 100%;
+    margin: 1.5em auto 0;
+}
+
+.supplies-container h4,
+.supplies-container p {
     width: 100%;
     margin: 0.25em auto 0;
 }
