@@ -16,6 +16,15 @@ a:active {
     text-decoration: underline;
 }
 
+.patch {
+    color: #fcddaf;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    width:75%;
+    margin: 0.25em auto;
+}
+
 /* Index styling */
 .home-title
  {
