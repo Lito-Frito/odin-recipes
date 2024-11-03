@@ -7,8 +7,17 @@ body {
     background-color: #313131;
 }
 
-.home-title,
-.home-link
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #8cb0e6;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+/* Index styling */
+.home-title
  {
     color: #fcddaf;
     font-size: 2.5em;
@@ -18,11 +27,10 @@ body {
     margin: 0.25em auto;
 }
 
-/* Index styling */
-div.summary { /* for each meal-type on the home page */
+div.summary { /* houses 'details' blocks for each meal e.g. dinner*/
     margin: 1em;
 }
-details {
+details { /* houses all recipes for meal e.g. 'ribs' under dinner recipes*/
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
     width:25%;
@@ -39,33 +47,43 @@ details p {
     font-family: 'Garamond', serif;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-    color: #fcddaf;
-    text-decoration: none;
-    text-decoration: underline;
-}
-
-summary {
+summary { 
     color: white;
     font-weight: bold;
     font-size: 1.25em;
 }
 
 /* Recipe styling */
-.recipe-name {
+.home-link {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    margin: 0.25em auto;
+}
+.home-link a:visited,
+.home-link a:link,
+.home-link a:hover,
+.home-link a:active {
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    margin: 0.25em auto 1em;
     color: #fcddaf;
+}
+
+.recipe-name {
+    color: #8cb0e6;
     font-size: 1.75em;
     font-weight: bold;
+    text-decoration-line: underline overline;
     text-align: center;
     margin: 0.25em auto;
 }
 
-figure {
+figure { /* houses image of recipe and its caption */
     margin: 0 auto;
-    width: 75%;
+    width: 55%;
     margin: 0.25em auto;
 }
 
@@ -84,9 +102,9 @@ figcaption {
     margin: 0.5em auto 0;
 }
 
-.recipe-container {
-    width: 75%;
-    margin: 1.5em auto 0;
+.recipe-container { /* houses div containers for rest of elements */
+    width: 55%;
+    margin: 1.5em auto;
 }
 
 .description-container h4,
@@ -131,23 +149,20 @@ figcaption {
 ul,
 ol {
     color: white;
+    font-size: 1em;
+}
+
+.recipe-component {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Garamond', serif;
+    color: #fcddaf;
 }
 
 h4 {
     font-size: large;
     font-weight: bold;
     font-style: italic;
-    color: #fcddaf;
+    color: #8cb0e6;
 }
 
-
-/* p, 
-h4,
-ul,
-ol{
-    color: white;
-    font-size: 1em;
-    margin: 0.5em 0.5em;
-    text-align: left;
-    
-} */
