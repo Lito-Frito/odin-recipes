@@ -86,22 +86,46 @@ figcaption {
 
 .recipe-container {
     width: 75%;
-    margin: 1.5em auto;
+    margin: 1.5em auto 0;
 }
 
-/* .description-container {
-    width: 100%;
-    margin: 0 auto;
-} */
-
-.description-container,
 .description-container h4,
 .description-container p {
     width: 100%;
     margin: 0.25em auto 0;
 }
 
-/* start with .recipe-containers next */
+.ingredients-container {
+    width: 100%;
+    margin: 1.5em auto 0;
+}
+
+.ingredients-container h4,
+.ingredients-container p,
+.ingredients-container ul {
+    width: 100%;
+    margin: 0.5em auto 0;
+}
+
+.ingredients-container li {
+    margin: 0.25em 0;
+}
+
+.directions-container {
+    width: 100%;
+    margin: 1.5em auto 0;
+}
+
+.directions-container h4,
+.directions-container p,
+.directions-container ol {
+    width: 100%;
+    margin: 0.5em auto 0;
+}
+
+.directions-container li {
+    margin: 0.25em 0;
+}
 
 .recipe-text,
 ul,
