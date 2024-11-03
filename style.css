@@ -39,6 +39,15 @@ details p {
     font-family: 'Garamond', serif;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #fcddaf;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
 summary {
     color: white;
     font-weight: bold;
