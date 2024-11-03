@@ -1,0 +1,184 @@
+/* Ubiquitous or shared styling */
+* {
+    /* outline: 2px solid red; */
+  }
+  
+body {
+    background-color: #313131;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #8cb0e6;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+/* Index styling */
+.home-title
+ {
+    color: #fcddaf;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    margin: 0.25em auto;
+}
+
+div.summary { /* houses 'details' blocks for each meal e.g. dinner*/
+    margin: 1em;
+}
+details { /* houses all recipes for meal e.g. 'ribs' under dinner recipes*/
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    width:25%;
+    margin: 0 auto;
+}
+
+details p {
+    text-align: left;
+    width:75%;
+    margin: 0 auto;
+    padding: 0.25em 0;
+    font-size: 0.85em;
+    font-weight: bold;
+    font-family: 'Garamond', serif;
+}
+
+summary { 
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+/* Recipe styling */
+.home-link {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    margin: 0.25em auto;
+}
+.home-link a:visited,
+.home-link a:link,
+.home-link a:hover,
+.home-link a:active {
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    margin: 0.25em auto 1em;
+    color: #fcddaf;
+}
+
+.recipe-name {
+    color: #8cb0e6;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-decoration-line: underline overline;
+    text-align: center;
+    margin: 0.25em auto;
+}
+
+figure { /* houses image of recipe and its caption */
+    margin: 0 auto;
+    width: 55%;
+    margin: 0.25em auto;
+}
+
+.recipe-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+figcaption {
+    color: white;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    margin: 0.5em auto 0;
+}
+
+.recipe-container { /* houses div containers for rest of elements */
+    width: 55%;
+    margin: 1.5em auto;
+}
+
+.description-container {
+    width: 100%;
+    margin: 1.5em auto 0;
+}
+
+.description-container h4,
+.description-container p {
+    width: 100%;
+    margin: 0.25em auto 0;
+}
+
+.supplies-container {
+    width: 100%;
+    margin: 1.5em auto 0;
+}
+
+.supplies-container h4,
+.supplies-container p {
+    width: 100%;
+    margin: 0.25em auto 0;
+}
+
+.ingredients-container {
+    width: 100%;
+    margin: 1.5em auto 0;
+}
+
+.ingredients-container h4,
+.ingredients-container p,
+.ingredients-container ul {
+    width: 100%;
+    margin: 0.5em auto 0;
+}
+
+.ingredients-container li {
+    margin: 0.25em 0;
+}
+
+.directions-container {
+    width: 100%;
+    margin: 1.5em auto 0;
+}
+
+.directions-container h4,
+.directions-container p,
+.directions-container ol {
+    width: 100%;
+    margin: 0.5em auto 0;
+}
+
+.directions-container li {
+    margin: 0.25em 0;
+}
+
+.recipe-text,
+ul,
+ol {
+    color: white;
+    font-size: 1em;
+}
+
+.recipe-component {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Garamond', serif;
+    color: #fcddaf;
+}
+
+h4 {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: #8cb0e6;
+}
+
