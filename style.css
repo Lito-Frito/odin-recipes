@@ -84,7 +84,7 @@ summary {
     color: #8cb0e6;
     font-size: 1.75em;
     font-weight: bold;
-    text-decoration-line: underline overline;
+    text-decoration: underline overline double;
     text-align: center;
     margin: 0.25em auto;
 }
