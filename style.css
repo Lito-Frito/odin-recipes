@@ -12,7 +12,6 @@ a:visited,
 a:hover,
 a:active {
     color: #8cb0e6;
-    text-decoration: none;
     text-decoration: underline;
 }
 
