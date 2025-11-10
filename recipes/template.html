@@ -1,0 +1,70 @@
+<!-- Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Ribs Recipes</title>
+</head>
+
+<!-- templated recipes -->
+<body>
+    <!-- Permanent -->
+    <h1 class="home-link"><a href="../../index.html">Home</a></h1>
+    <!-- TODO: add links to pages that show all recipes for each meal (e.g. all Dinner recipes) -->
+    <h2 class="recipe-name">${Recipe_NAME}</h2>
+    <figure>
+        <!-- video ref/follow along link -->
+        <a class='recipe-video' href=${link} target="_blank">
+            <!-- recipe picture; don't forget to write alt text!-->
+            <img class="recipe-img" src="../../images/${path/to/recipe}" width="672" height="378" alt="${alt text for image}">
+        </a>
+        <!-- Caption for video -->
+        <figcaption>${CAPTION TEXT}</figcaption>
+    </figure>
+    <!-- boilerplate web elements for recipe page -->
+    <div class="recipe-container">
+        <div class="description-container">
+            <h4 class="recipe-description">Description</h4>
+            <!-- Custom description for each recipe -->
+            <p class="recipe-text">${TEXT}</p>
+        </div>
+        <!-- boilerplate elements for ingredients section -->
+        <div class="ingredients-container">
+            <h4 class="recipe-ingredients">Ingredients</h4>
+            <p class="recipe-component">${Component1}:</p>
+            <!-- List of ingredients; copypasta ${STUFF} for as many ingredients needed -->
+            <ul>
+                <li class="ingredients">${STUFF}</li>
+                <li class="ingredients">${STUFF}</li>
+                <li class="ingredients">${STUFF}</li>
+            </ul>
+            <p class="recipe-component">${Component2}:</p>
+            <!-- List of ingredients; copypasta ${STUFF} for as many ingredients needed -->
+            <ul>
+                <li class="ingredients">${STUFF}</li>
+                <li class="ingredients">${STUFF}</li>
+                <li class="ingredients">${STUFF}</li>
+            </ul>
+        </div>
+        <!-- boilerplate elements for directions section -->
+        <div class="directions-container">
+            <h4 class="directions">Directions</h4>
+            <p class="recipe-component">${Component1}</p>
+            <ol>
+                <li class="directions">${STUFF}</li>
+                <li class="directions">${STUFF}</li>
+                <li class="directions">${STUFF}</li>
+            </ol>
+            <p class="recipe-component">${Component2}</p>
+            <ol>
+                <li class="directions">${STUFF}</li>
+                <li class="directions">${STUFF}</li>
+                <li class="directions">${STUFF}</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
